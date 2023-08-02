@@ -1,0 +1,12 @@
+.text-color-red {
+    color: red;
+}
+
+/*gom css tailwin lại thành class content*/
+.content {
+    @apply text-sm text-white ml-5 mt-5  hover:text-red-300 duration-500;
+}
+
+.animation-sacle {
+    @apply transition duration-300 ease-in-out bg-blue-400 hover:bg-red-400 transform hover:-translate-y-1 hover:scale-110;
+}
